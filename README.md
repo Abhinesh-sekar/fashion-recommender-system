@@ -1,4 +1,4 @@
-# Two-Stage Fashion Recommender System 👗👠
+# Two-Stage Fashion Recommender System 
 
 A production-grade, two-stage personalized recommendation engine tailored for large-scale e-commerce and fashion retail transactions (modeled on the **Kaggle H&M Personalized Fashion Recommendations** benchmark). The architecture decouples **high-recall candidate retrieval** from **high-precision GBDT re-ranking**, optimizing the competition-standard **Mean Average Precision at 12 (MAP@12)**.
 
