@@ -1,0 +1,23 @@
+data:
+  n_customers: 5000
+  n_articles: 1000
+  n_transactions: 80000
+  train_weeks: 7
+  test_weeks: 1
+  start_date: "2024-05-01"
+
+retrieval:
+  top_k_candidates: 60
+  recent_popularity_days: 7
+  min_co_purchase_count: 2
+
+ranking:
+  n_estimators: 250
+  learning_rate: 0.05
+  num_leaves: 31
+  max_depth: 6
+  objective: "binary"  # or lambdarank
+  eval_metric: "binary_logloss"
+
+evaluation:
+  top_k_metrics: [12]
