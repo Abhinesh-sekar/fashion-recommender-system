@@ -4,7 +4,7 @@ A production-grade, two-stage personalized recommendation engine tailored for la
 
 ---
 
-## 🚀 Key Highlights & Benchmark Results
+##  Key Highlights & Benchmark Results
 
 Evaluated across **5,000 customers**, **1,000 catalog articles**, and **80,000 transactions** with rolling 7-week training and a 1-week temporal holdout:
 
@@ -23,7 +23,7 @@ Evaluated across **5,000 customers**, **1,000 catalog articles**, and **80,000 t
 
 ---
 
-## 🏛️ System Architecture
+##  System Architecture
 
 ```mermaid
 flowchart TD
@@ -64,7 +64,7 @@ flowchart TD
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 fashion-recommender-system/
@@ -117,11 +117,6 @@ python scripts/run_pipeline.py
 
 ---
 
-## 📄 LaTeX Resume Entry
 
-```latex
-\entry{Two-Stage Fashion Recommender System}{Python, PyTorch, FAISS, LightGBM}{2026}{
-  \item Built candidate retrieval (item/user embeddings + popularity/co-purchase) and LightGBM re-ranker on the H\&M transactions dataset (5,000 customers, 1,000 items).
-  \item Improved MAP@12 from 0.0038 to 0.0108 (+184\% relative lift) vs.\ popularity baseline; analysed cold-start handling for low-activity users. \href{https://github.com/Abhinesh-sekar/fashion-recommender-system}{[Code]}
 }
 ```
