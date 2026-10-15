@@ -96,7 +96,7 @@ fashion-recommender-system/
 
 ---
 
-## ⚡ Quickstart
+##  Quickstart
 
 ### 1. Environment Setup
 ```bash
@@ -115,8 +115,4 @@ pytest tests/ -v
 python scripts/run_pipeline.py
 ```
 
----
 
-
-}
-```
